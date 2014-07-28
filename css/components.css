@@ -1,0 +1,498 @@
+/*	----- BOOTSTRAP CAROUSEL ----------  STARTS ----------	*/
+
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0px;
+	position: absolute;
+	z-index: 1000000000;
+  /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+ 
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  margin-top: 200px;
+
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 90vh;
+  
+ 
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  
+
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	---------- CAROUSEL ENDS ----------	*/
+
+
+
+
+
+/*	----- BUCKETS WITH ANIMATED HOVER EFFECT -------- STARTS-----	*/
+
+.ch-grid {
+	position: relative;
+	margin:  auto;
+	padding-top: 100px;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 85%;
+	z-index: 100;
+	}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+	}
+
+.ch-grid:after {
+	clear: both;
+	}
+
+.ch-grid li {
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+	margin: 10px 50px;
+	}
+
+
+.view {
+	margin-top: 40px;
+
+}
+
+
+.spcr2 {
+	border-bottom: 1px solid #444;
+	width: 20%;
+	margin: 0 auto 30px;
+}
+
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.6),
+		0 1px 1px rgba(0,0,0,0.1);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	}
+
+.ch-img-1 { 
+	background: url(../images/1.svg);	
+	opacity: .8;
+	}
+
+.ch-img-2 { 
+	background: url(../images/2.svg);
+	opacity: .8;
+	}
+
+.ch-img-3 { 
+	background: url(../images/4.svg);
+	opacity: .8;
+	}
+
+.ch-img-4 { 
+	background: url(../images/3.svg);
+	opacity: .8;
+	}
+
+.ch-info {
+
+	position: absolute;
+	background: #333;
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	
+	-webkit-backface-visibility: hidden;
+
+
+}
+
+.ch-info h3 {
+	color: #ccc;
+	letter-spacing: 1px;
+	font-size: 14px;
+	margin: 0 20px;
+	padding: px 0 0 0;
+	height: ;
+	font-family: 'Open Sans', Arial, sans-serif;
+	opacity: ;
+	
+}
+
+.ch-info h1 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	color:;
+	padding: -5px 5px;
+	font-style: italic;
+	margin: 0 5px;
+	font-size: 12px;
+	postion: block;
+	z-index: 200;
+	line-height: 1em;
+	color: #ccc;
+	
+	-webkit-transition: all 1s ease-in-out 0.4s;
+	-moz-transition: all 1s ease-in-out 0.4s;
+	-o-transition: all 1s ease-in-out 0.4s;
+	-ms-transition: all 1s ease-in-out 0.4s;
+	transition: all 1s ease-in-out 0.4s;
+}
+
+.ch-info h1 {
+	display: block;
+
+	font-style: normal;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	
+	
+}
+
+.ch-info h1:hover {
+	line-height:;
+	
+}
+
+.ch-item:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+	opacity: ;
+}
+.ch-item:hover .ch-info {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: ;
+}
+
+.ch-item:hover .ch-info p {
+	opacity: .6;
+}
+
+
+
+
+/*	-----  BUCKET ENDS    -----	*/
+
+
+
+
+
+
+  
+
+
+
+/*	----- NAVIGATION MENU ----------  STARTS ----------	*/
+
+
+	
+
+
+.ac-container{	
+	text-align: center;
+	height: inherit;
+	margin: 0 auto;
+	width: 100vw;
+	
+	
+	
+}
+
+
+.ac-container label{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	position: relative;
+	z-index: 20;
+	display: block;
+	height: 55px;
+	width: 40px;
+	cursor: pointer;
+	color: #777;
+	background-image: url(../images/menu2.svg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+
+.ac-container label:hover{
+opacity: .8;
+}
+
+
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{
+	
+	position: relative;
+	
+	z-index: 20;
+	display: block;
+	height: 50px;
+	width: 40px;
+	cursor: pointer;
+	color: #777;
+	background-image: url(../images/X.svg);
+	background-repeat: no-repeat;	
+	margin: 0 auto;	
+}
+
+
+#ac-side-nav{
+	position: relative;
+	text-align: left;
+	z-index: 200;
+	
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 16pt;
+	color: #ccc;
+	height: 100px;
+	display: inline-block;
+
+}
+
+#ac-side-nav {
+	background-color: ;
+}
+
+
+
+
+.service1 {
+	
+}
+
+.work1 {
+	
+}
+
+.contact1 {
+	
+}
+
+
+
+#ac-side-nav:p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 16pt;
+	color: #ccc;
+	display: inline-block;
+}
+
+.ac-container input{
+	display: none;
+}
+.ac-container article{
+	
+	overflow: hidden;
+	height: 80vh;
+	width: 100vw;
+
+	position: relative;
+	z-index: 500;
+	
+	-webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	
+	
+}
+
+.ac-container article p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 15pt;
+	color: #fff;
+	line-height: 23px;
+	padding-left: 0px;
+	text-align: left;
+	border-top: 1px solid #666;
+	
+}
+.ac-container input:checked ~ article{
+	-webkit-transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
+	-moz-transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
+	-o-transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
+	-ms-transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
+	transition: height 0.5s ease-in-out, box-shadow 0.6s linear;
+	
+}
+.ac-container input:checked ~ article.ac-small{
+	height: 80px;
+	width: 100vw;
+	
+	
+}
+.ac-container input:checked ~ article.ac-medium{
+	height: 1600px;
+}
+.ac-container input:checked ~ article.ac-large{
+	height: 470px;
+}
+
+
+/*	---------- NAV ENDS ----------	*/
+
+
+
+
+
+
