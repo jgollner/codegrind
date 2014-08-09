@@ -29,7 +29,13 @@ header {
 }
 
 
-
+#landing h2 {
+	font-family:'Source Sans Pro', sans-serif;
+	font-weight: 100;
+	color: #f2f2f2;
+	font-size: 32pt;
+	text-align: center;
+}
 
 
 
