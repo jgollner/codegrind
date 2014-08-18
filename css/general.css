@@ -9,6 +9,7 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	min-width: 240px;
+	max-height: 1136px;
 	
 	}
 
@@ -26,7 +27,12 @@ h2 {
 	padding: 0;
 }
 
-
+footer {
+	height: 100px;
+	width: 100%;
+	background-color: #33ff00;
+	
+}
 
 #section2 {
 	width: 100vw;
