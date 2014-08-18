@@ -10,7 +10,7 @@ body {
 	width: 100%;
 	min-width: 240px;
 	height: 1136px;
-	background-color: pink;
+	background-color: #ccc;
 	
 	
 	}
@@ -30,7 +30,7 @@ h2 {
 }
 
 footer {
-	height: 100px;
+	height: 200px;
 	width: 100%;
 	background-color: #333;
 	position: fixed;
