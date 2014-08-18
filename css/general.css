@@ -9,7 +9,7 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	min-width: 240px;
-	height: 1136px;
+	
 	
 	}
 
@@ -39,7 +39,7 @@ footer {
 
 #section2 {
 	width: 100vw;
-	height: 60vh;
+	height: 1100px;
 	background-color: #666;
 	margin: -40px auto 0; 
 	padding: 0;	
