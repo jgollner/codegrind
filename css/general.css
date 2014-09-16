@@ -189,6 +189,15 @@ header {
 
 
 
+footer {
+	height: 50px;
+	width: 100vw;
+	background-color: #222;
+	position: absolute;
+	bottom: 0;
+}
+
+
 
 
 
