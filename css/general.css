@@ -32,6 +32,30 @@ header {
 
 
 
+.search-icon {
+	background-image: url(../images/search.svg);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin: 18px 15px 0 0;		
+}
+
+
+
+#section1 {
+	width: 100vw;
+	height: 30vh;
+	background-color: #333;
+	opacity: .3;
+	border-bottom: 1px solid #e3e3e3;
+
+}
+
+
+
+
+
 .footer-nav {
 	height: 60px;
 	text-align: center;
