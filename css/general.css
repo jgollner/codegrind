@@ -100,32 +100,32 @@ header {
 }
 
 .color-unit-1 {
-	border-bottom: 5px solid #225B66;
+	border-top: 5px solid #225B66;
 	background-color: #222;
 	text-align: center;
 }
 
 
 .color-unit-2 {
-	border-bottom: 5px solid #17A3a5;
+	border-top: 5px solid #17A3a5;
 	background-color: #222;
 }
 
 
 .color-unit-3 {
-	border-bottom: 5px solid #8DbF67;
+	border-top: 5px solid #8DbF67;
 	background-color: #222;
 }
 
 
 .color-unit-4 {
-	border-bottom: 5px solid #FCCb57;
+	border-top: 5px solid #FCCb57;
 	background-color: #222;
 }
 
 
 .color-unit-5 {
-	border-bottom: 5px solid #FC6E59;
+	border-top: 5px solid #FC6E59;
 	background-color: #222;
 }
 
