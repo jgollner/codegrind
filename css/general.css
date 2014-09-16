@@ -76,7 +76,7 @@ header {
 
 .foot-btn1 {
 	width: 20%;
-	border-top: 5px solid #225B66;
+	border-top: 3px solid #225B66;
 	margin: 0;
 	padding: 0;
 
@@ -84,25 +84,25 @@ header {
 
 .foot-btn2 {
 	width: 20%;
-	border-top: 5px solid #17A3a5;
+	border-top: 3px solid #17A3a5;
 	margin: 0;
 	padding: 0;
 }
 .foot-btn3 {
 	width: 20%;
-	border-top: 5px solid #8DbF67;
+	border-top: 3px solid #8DbF67;
 	margin: 0;
 	padding: 0;
 }
 .foot-btn4 {
 	width: 20%;
-	border-top: 5px solid #FCCb57;
+	border-top: 3px solid #FCCb57;
 	margin: 0;
 	padding: 0;
 }
 .foot-btn5 {
 	width: 20%;
-	border-top: 5px solid #FC6E59;
+	border-top: 3px solid #FC6E59;
 	margin: 0;
 	padding: 0;
 }
