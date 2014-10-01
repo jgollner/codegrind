@@ -7,7 +7,15 @@
 <link href="css/reset.css" rel="reset">
 <link href="css/general.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700' rel='stylesheet' type='text/css'>
-
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+	<script>
+	$(document).ready(function(){
+  	$("button").click(function(){
+   	 $("#div1").load("demo_test.txt");
+  	});
+	});
+</script>
 </head>
 
 <body>
@@ -30,7 +38,8 @@
 
 		<section id="section1">
 
-		
+		<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+<button>Get External Content</button>
 
 
 
