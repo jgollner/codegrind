@@ -55,7 +55,9 @@ header {
 }
 
 
-
+button {
+	z-index: 1000;
+}
 
 
 .footer-nav {
